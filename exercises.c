@@ -66,11 +66,13 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
 
   int *nuevoArray = malloc(sizeof(int) * contadorPares);
 
+  int posicion = 0;
   for (int i = 0; i < size; i++)
     {
       if (arr[i] % 2 == 0)
       {
-        nuevoArray[i] = arr[i];
+        nuevoArray[posicion] = arr[i];
+        posicion++;
       }
     }
 
