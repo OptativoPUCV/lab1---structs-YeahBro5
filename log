@@ -112,3 +112,18 @@ exercises.c:90:6: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 6c5929a
+Thu 14 Mar 2024 09:08:14 PM UTC: 
+ exercises.c | 2 --
+ 1 file changed, 2 deletions(-)
+Thu 14 Mar 2024 09:08:40 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Thu 14 Mar 2024 09:09:41 PM UTC: 
+ exercises.c | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+Thu 14 Mar 2024 09:12:03 PM UTC: 
+ exercises.c | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+ tests:  0|4
+total_score: 30/70
+10a7147
