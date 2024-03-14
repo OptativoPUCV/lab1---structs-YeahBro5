@@ -90,8 +90,7 @@ arreglos en un tercer arreglo también ordenado de menor a mayor.
 void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
                        int result[])
 {
-  result = malloc(sizeof(int) * (size1 + size2));
-
+  
   int i = 0;
   int k = 0;
   int posicion = 0;
@@ -130,6 +129,8 @@ void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
     }
   
 }
+
+free(result);
 
 /*
 Ejercicio 5: Comprobación de Ordenación

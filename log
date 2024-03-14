@@ -127,3 +127,21 @@ Thu 14 Mar 2024 09:12:03 PM UTC:
  tests:  0|4
 total_score: 30/70
 10a7147
+Thu 14 Mar 2024 09:16:40 PM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c:133:1: error: data definition has no type or storage class [-Werror]
+  133 | free(result);
+      | ^~~~
+exercises.c:133:1: error: type defaults to ‘int’ in declaration of ‘free’ [-Werror=implicit-int]
+exercises.c:133:1: error: parameter names (without types) in function declaration [-Werror]
+exercises.c:133:1: error: conflicting types for ‘free’; have ‘int()’
+In file included from exercises.c:4,
+                 from test.c:1:
+/nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdlib.h:555:13: note: previous declaration of ‘free’ with type ‘void(void *)’
+  555 | extern void free (void *__ptr) __THROW;
+      |             ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+4491874
