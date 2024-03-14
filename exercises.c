@@ -130,8 +130,6 @@ void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
   
 }
 
-free(result);
-
 /*
 Ejercicio 5: Comprobación de Ordenación
 Descripción: Escribe una función que tome un arreglo y su tamaño,
