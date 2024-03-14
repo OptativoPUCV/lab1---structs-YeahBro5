@@ -18,3 +18,9 @@ In file included from /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163
       |         ^~~~~~~~
 Compilation failed
 b3f3ce8
+Thu 14 Mar 2024 08:12:48 PM UTC: 
+ exercises.c | 17 +++++++++++++++--
+ 1 file changed, 15 insertions(+), 2 deletions(-)
+ tests:  0|6
+total_score: 10/70
+a9a7e6d
