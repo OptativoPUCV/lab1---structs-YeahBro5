@@ -138,14 +138,14 @@ y luego devuelva 1 si el arreglo está ordenado en orden ascendente,
 */
 int checkSorted(int arr[], int size) 
 {
-  int ascendente = 1;
-  int descendente = 1;
+  int ascendente = 1; // TRUE
+  int descendente = 1; // TRUE
 
   for (int i = 0; i < size - 1; i++)
     {
       if (arr[i] > arr[i + 1])
       {
-        ascendente = 0;
+        ascendente = 0; 
       }
 
       if (arr[i] < arr[i + 1])
@@ -192,13 +192,7 @@ void inicializarLibro(Libro *libro, const char *titulo, const char *nombreAutor,
   strcpy(libro->titulo, titulo);
   strcpy(libro->autor.nombre, nombreAutor);
   libro->anioPublicacion = anioPublicacion;
-  libro->autor.anioNacimiento = anioNacimiento;
-  
-  
-
-
-
-  
+  libro->autor.anioNacimiento = anioNacimiento;  
 }
 
 /*
